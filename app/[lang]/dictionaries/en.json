@@ -338,12 +338,12 @@
   },
   "host": {
     "label": "Partner with us · Contact",
-    "heading": "Host the next edition with us",
-    "sub": "Universities, departments and student groups — as well as innovation parks, companies, cultural venues, communities or any other organization — are welcome to host FRAME ZERO.",
+    "heading": "Host an edition with us",
+    "sub": "FRAME ZERO partners with universities, innovation parks, companies and cultural institutions to host new editions.",
     "terms": [
       {
         "label": "Who can host",
-        "value": "Universities, student groups, parks, companies, cultural venues and other organizations"
+        "value": "Universities, innovation parks, companies, cultural institutions and more"
       },
       {
         "label": "Venue",

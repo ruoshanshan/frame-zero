@@ -14,9 +14,9 @@
 
 .groupTitle span {
   color: var(--muted);
-  font-family: var(--f-pixel);
-  font-size: 14px;
-  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .grid {

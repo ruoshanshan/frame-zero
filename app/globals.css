@@ -61,6 +61,15 @@ ol {
   list-style: none;
 }
 
+/* avoid a lone character on the last line of Chinese text */
+p,
+li,
+dd,
+h3,
+h4 {
+  text-wrap: pretty;
+}
+
 a {
   color: inherit;
   text-decoration: none;
