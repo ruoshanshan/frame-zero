@@ -17,15 +17,8 @@
     "title": "FRAME ZERO",
     "titleSub": "AI Video Hackathon",
     "lead": "Eight hours and a video API to turn the story in your head into a one-minute film.",
-    "chips": [
-      "8 hours on site",
-      "Teams of 2–6",
-      "1-minute original film",
-      "Free to join"
-    ],
     "ctaWorks": "Watch the winning films",
-    "ctaHost": "Partner with us",
-    "aiNote": "AI-generated illustration"
+    "ctaHost": "Partner with us"
   },
   "stats": [
     {

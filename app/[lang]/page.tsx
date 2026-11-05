@@ -7,11 +7,15 @@ import { StopStatus } from '@/components/StopStatus';
 import { WorkGrid } from '@/components/WorkGrid';
 import { ContactForm } from '@/components/ContactForm';
 import { Wordmark } from '@/components/Wordmark';
-import { ARTICLES, ART, CONTACT, SCENE_PHOTOS, SHOWREEL, STOP_LINKS, STOP_PHOTOS } from '@/components/site';
+import { Duotone } from '@/components/Duotone';
+import { ARTICLES, ART, CONTACT, SCENE_PHOTOS, SHOWREEL, STOP_LINKS, STOP_PHOTOS, WORK_MEDIA } from '@/components/site';
 import { getDictionary } from './dictionaries';
 import s from './page.module.css';
 
 const SECTIONS = ['concept', 'format', 'stops', 'works', 'scene', 'host'] as const;
+
+// stills from the showreel, shown in the hero's film strip
+const STILLS = Object.values(WORK_MEDIA).map((m) => m.still);
 
 function SectionHead({ num, label, heading, sub, tone = 'blue' }: { num: string; label: string; heading: ReactNode; sub?: string; tone?: 'blue' | 'pink' }) {
   return (
@@ -36,10 +40,16 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
       <SiteHeader lang={lang} langLabel={t.nav.langLabel} nav={SECTIONS.map((id) => ({ id, label: t.nav[id] }))} />
 
       <main>
-        {/* hero */}
+        {/* hero: title over a slowly rolling film strip of winning-work stills */}
         <section className={s.hero}>
-          <Image src={ART.heroCity.src} alt="" fill priority sizes="100vw" className={s.heroBg} />
-          <div className={s.heroShade} aria-hidden />
+          <Duotone />
+          <div className={s.heroDots} aria-hidden>
+            <i style={{ left: '8%', top: '22%' }} />
+            <i style={{ left: '86%', top: '18%' }} />
+            <i style={{ left: '78%', top: '44%' }} />
+            <i style={{ left: '14%', top: '52%' }} />
+            <i style={{ left: '52%', top: '12%' }} />
+          </div>
           <div className={s.heroInner}>
             <p className={s.kicker}>
               <span className={s.kickerPixels} aria-hidden>
@@ -50,15 +60,13 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
               {t.hero.kicker}
             </p>
             <h1 className={s.heroTitle}>
-              <span className={s.heroName}>{t.hero.title}</span>
+              <span className={s.heroName}>
+                {t.hero.title}
+                <span className={s.cursor} aria-hidden />
+              </span>
               <span className={s.heroSub}>{t.hero.titleSub}</span>
             </h1>
             <p className={s.heroLead}>{t.hero.lead}</p>
-            <ul className={s.chips}>
-              {t.hero.chips.map((chip) => (
-                <li key={chip}>{chip}</li>
-              ))}
-            </ul>
             <div className={s.ctas}>
               <a href="#works" className={s.ctaPrimary}>
                 <span className={s.ctaPlay} aria-hidden />
@@ -69,7 +77,17 @@ export default async function Home({ params }: PageProps<'/[lang]'>) {
               </a>
             </div>
           </div>
-          <span className={s.aiNote}>{t.hero.aiNote}</span>
+          <div className={s.strip} aria-hidden>
+            {/* two copies so the loop is seamless */}
+            <div className={s.track}>
+              {[...STILLS, ...STILLS].map((still, i) => (
+                <div key={i} className={s.cell}>
+                  <span className={s.frameNo}>{String((i % STILLS.length) + 1).padStart(3, '0')}</span>
+                  <Image src={still.src} alt="" width={still.width} height={still.height} sizes="290px" priority={i < 6} />
+                </div>
+              ))}
+            </div>
+          </div>
         </section>
 
         {/* numbers */}

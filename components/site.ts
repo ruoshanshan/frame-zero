@@ -6,7 +6,6 @@ const img = (f: string, width: number, height: number): Shot => ({ src: `/img/${
 
 export const ART = {
   // AI-generated artwork from the FRAME ZERO deck (labelled as such on the page)
-  heroCity: img('hero-city', 1536, 1024),
   poster: img('poster', 1086, 1448),
   studio: img('studio', 1200, 800),
 };
