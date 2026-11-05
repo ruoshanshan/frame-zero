@@ -1,0 +1,95 @@
+/* Palette and type from the FRAME ZERO deck: pale sky background, navy text and panels, pixel accents in
+   pink / yellow / cyan with a mid blue for section numbers. */
+:root {
+  --sky: #f4f9ff;
+  --sky-2: #e3f0fc;
+  --line: #d8e8f7;
+  --navy: #15284a;
+  --navy-2: #1f3a66;
+  --ink: #3e4c63;
+  --muted: #7a889e;
+  --blue: #4a9ee6;
+  --cyan: #50c8ee;
+  --yellow: #f8e45c;
+  --pink: #ff5d7d;
+
+  --f-sans: var(--font-latin), MiSans, 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  --f-pixel: 'Silkscreen', var(--font-latin), monospace;
+
+  --wrap: 1240px;
+  --gutter: clamp(20px, 4vw, 48px);
+  --radius: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 84px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--sky);
+  color: var(--ink);
+  font-family: var(--f-sans);
+  font-size: 16px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+figure,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    transition: none !important;
+    animation: none !important;
+  }
+}

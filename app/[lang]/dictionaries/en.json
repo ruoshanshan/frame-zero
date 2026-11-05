@@ -1,0 +1,426 @@
+{
+  "meta": {
+    "title": "FRAME ZERO · AI Video Hackathon",
+    "description": "FRAME ZERO is an AI video hackathon touring China. Teams of 2–6 get eight hours and a video API to make an original one-minute film."
+  },
+  "nav": {
+    "concept": "About",
+    "format": "Format",
+    "stops": "Editions",
+    "works": "Films",
+    "scene": "Photos",
+    "host": "Partner with us",
+    "langLabel": "Switch language"
+  },
+  "hero": {
+    "kicker": "FRAME ZERO · AI VIDEO HACKATHON",
+    "title": "FRAME ZERO",
+    "titleSub": "AI Video Hackathon",
+    "lead": "Eight hours and a video API to turn the story in your head into a one-minute film.",
+    "chips": [
+      "8 hours on site",
+      "Teams of 2–6",
+      "1-minute original film",
+      "Free to join"
+    ],
+    "ctaWorks": "Watch the winning films",
+    "ctaHost": "Partner with us",
+    "aiNote": "AI-generated illustration"
+  },
+  "stats": [
+    {
+      "value": "2",
+      "unit": "",
+      "label": "university editions held",
+      "detail": "Wuhan University · Shandong University of Technology"
+    },
+    {
+      "value": "40",
+      "unit": "",
+      "label": "teams at university editions",
+      "detail": "23 at Wuhan, 17 at Shandong Tech"
+    },
+    {
+      "value": "100+",
+      "unit": "",
+      "label": "students on site",
+      "detail": "Across both university editions"
+    }
+  ],
+  "concept": {
+    "label": "FRAME ZERO · About",
+    "heading": "Why “Frame Zero”?",
+    "body": [
+      "Every film has a first frame. Before it there is an earlier moment: no script yet, no character names, the camera still off — just an idea that has started to take shape.",
+      "Many ideas stop there, because the equipment isn’t good enough, the team isn’t there yet, there isn’t time, or we don’t feel ready."
+    ],
+    "named": "We call that moment",
+    "namedWord": "Frame Zero.",
+    "calloutTitle": "FRAME ZERO gives that idea eight hours.",
+    "calloutBody": "A team, a room to work in and a video API — enough to turn the story in your head into a film people can watch.",
+    "points": [
+      {
+        "strong": "About 80 creators",
+        "text": "per edition, in teams of 2–6, free of charge"
+      },
+      {
+        "strong": "A 1-minute original film",
+        "text": "script, storyboard, generation and edit all done on site"
+      },
+      {
+        "strong": "Certificate and prizes",
+        "text": "every team that finishes a film receives a certificate"
+      }
+    ],
+    "posterAlt": "FRAME ZERO key visual: a pixel-art clapperboard mascot holding a play flag, with film strip and city skyline behind"
+  },
+  "format": {
+    "label": "Format · Judging · Prizes",
+    "heading": "Eight hours from script to final cut",
+    "sub": "No experience needed: participants get online tutorials for the video API before the event, plus training and Q&A in the team chat.",
+    "rules": [
+      {
+        "title": "Made on site",
+        "body": "From 10:00 to 18:00, teams write, storyboard, generate and edit in the same room."
+      },
+      {
+        "title": "Teams of 2–6",
+        "body": "Some people write, some think in pictures, some want to dig into the video API — a team puts them together."
+      },
+      {
+        "title": "One video API",
+        "body": "Footage must be generated with the video API provided. Teams handle script, storyboard and edit themselves and may use AI along the way."
+      },
+      {
+        "title": "Submit a film",
+        "body": "At 18:00 each team exports and submits an original film of about one minute."
+      }
+    ],
+    "scheduleHeading": "The day",
+    "schedule": [
+      {
+        "time": "10:00",
+        "detail": "Form teams, learn how to call the video API and test a first shot. Agree on a theme and roles, then start writing."
+      },
+      {
+        "time": "11:00",
+        "detail": "Break the script into shots — what each shows, how long it runs, how it cuts to the next. Settle characters and look, write prompts and start generating footage."
+      },
+      {
+        "time": "14:00",
+        "detail": "Pick the best shots, fill the gaps and start editing: order, transitions, sound and subtitles. Generating and editing run in parallel until the film comes together."
+      },
+      {
+        "time": "18:00",
+        "detail": "Submissions close. Everyone watches the films together and talks through what they wanted to say and the choices they made."
+      }
+    ],
+    "judgingHeading": "Judging · winners announced on the day",
+    "judgingBody": "Technical complexity matters less than what a film is trying to say, and whether each shot serves the story.",
+    "questions": [
+      "Does the film have something to say?",
+      "Does the technology make that clearer?",
+      "Do the creators stand behind their choices?"
+    ],
+    "dimensionsLabel": "Scored on",
+    "dimensions": [
+      "Creativity",
+      "Completeness",
+      "Storytelling",
+      "Technical ambition"
+    ],
+    "awardsHeading": "Prizes",
+    "awards": [
+      "Winners chosen on site; prize money set per edition",
+      "A certificate for every team that finishes a film",
+      "Official mascot merch: stickers, badges, tote bags and more"
+    ],
+    "studioAlt": "Pixel illustration: teams of students editing video on laptops in a bright classroom"
+  },
+  "stops": {
+    "label": "Editions · Track record",
+    "heading": "From Wuhan, one edition at a time",
+    "sub": "The first edition ran in September 2026; FRAME ZERO now tours universities, innovation parks and other organizations.",
+    "done": "Held",
+    "upcoming": "Upcoming",
+    "items": [
+      {
+        "id": "whu",
+        "date": "2026.09.27",
+        "name": "Wuhan University",
+        "tag": "First edition",
+        "figures": [
+          {
+            "value": "23",
+            "label": "teams"
+          },
+          {
+            "value": "7",
+            "label": "briefs"
+          }
+        ],
+        "body": "The first FRAME ZERO. Twenty-three teams worked from seven briefs, on subjects from campus life and city culture to public-interest stories. Supported by the university’s Yubing Insight team and student volunteers.",
+        "link": "Read the Wuhan recap (Chinese)"
+      },
+      {
+        "id": "sdut",
+        "date": "2026.10.11",
+        "name": "Shandong University of Technology",
+        "tag": "Second edition",
+        "figures": [
+          {
+            "value": "17",
+            "label": "teams"
+          },
+          {
+            "value": "6",
+            "label": "winning films"
+          }
+        ],
+        "body": "Hosted by the AI Lab of the School of Computer Science and Technology in Lab 508. More than 40 students and teachers took part; three judges scored each film on clarity, a memorable idea and smooth editing.",
+        "link": "Read the Shandong Tech recap (Chinese)"
+      },
+      {
+        "id": "xiamen",
+        "date": "2026.11.07",
+        "name": "Xiamen · Egret Youth Hackathon",
+        "tag": "Innovation-park edition",
+        "figures": [
+          {
+            "value": "50",
+            "label": "teams shortlisted"
+          },
+          {
+            "value": "¥20k",
+            "label": "prize pool"
+          }
+        ],
+        "body": "An AIGC video edition co-organized with Xiamen Torch OPC Innovation Community at Xiamen Software Park Phase I (North). Teams of 1–3 make a 60-second film in an open track or the park’s own brief, “Where youth stories happen”. Compute provided by AMD.",
+        "link": "See the Xiamen call for entries (Chinese)"
+      }
+    ]
+  },
+  "works": {
+    "label": "Films · Past winners",
+    "heading": "Made in eight hours",
+    "sub": "All footage below was generated with AI by participants during the event. Select a film to watch an excerpt.",
+    "showreelCaption": "Winners’ showreel · Wuhan University and Shandong Tech (about 2 minutes, with sound)",
+    "play": "Watch excerpt",
+    "noClip": "Not in the showreel",
+    "duration": "Length",
+    "team": "Team",
+    "close": "Close",
+    "clipNote": "Excerpt from the winners’ showreel",
+    "groups": [
+      {
+        "id": "whu",
+        "name": "Wuhan University",
+        "date": "2026.09.27",
+        "items": [
+          {
+            "id": "whu-flug",
+            "award": "First prize",
+            "level": 1,
+            "title": "FLUG-LOG: Wuhan Observation Log"
+          },
+          {
+            "id": "whu-tape",
+            "award": "Second prize",
+            "level": 2,
+            "title": "The All-Purpose Tape"
+          },
+          {
+            "id": "whu-jacket",
+            "award": "Second prize",
+            "level": 2,
+            "title": "Beifu Jacket — an ad"
+          },
+          {
+            "id": "whu-narcissus",
+            "award": "Third prize",
+            "level": 3,
+            "title": "Narcissus"
+          },
+          {
+            "id": "whu-drift",
+            "award": "Third prize",
+            "level": 3,
+            "title": "Off Route"
+          },
+          {
+            "id": "whu-sakura",
+            "award": "Third prize",
+            "level": 3,
+            "title": "No More Goodbyes Under the Cherry Blossoms"
+          }
+        ]
+      },
+      {
+        "id": "sdut",
+        "name": "Shandong University of Technology",
+        "date": "2026.10.11",
+        "items": [
+          {
+            "id": "sdut-today",
+            "award": "First prize",
+            "level": 1,
+            "title": "Don’t Stick Today onto Tomorrow",
+            "team": "Gao Minghuang, Zhang Jinshan, Wu Chuanshuo",
+            "length": "1:09",
+            "note": "A first-person monologue: the to-do list keeps growing while less and less actually gets started. All three judges voted for it."
+          },
+          {
+            "id": "sdut-stone",
+            "award": "Second prize",
+            "level": 2,
+            "title": "A Stone That Stands Guard",
+            "team": "Sun Mingyu, Ma Zihang, Yao Yican",
+            "length": "0:54",
+            "note": "Opens with an interview question and uses the Shigandang guardian-stone tradition to talk about people who stand up to protect their homes."
+          },
+          {
+            "id": "sdut-blur",
+            "award": "Second prize",
+            "level": 2,
+            "title": "Leave the Blur to Art",
+            "team": "Shao Hongzheng",
+            "length": "1:02",
+            "note": "An Impressionism piece that recreates the movement’s colour and feeling in AI-generated images."
+          },
+          {
+            "id": "sdut-sword",
+            "award": "Third prize",
+            "level": 3,
+            "title": "Forging the Sword: Echoes of Qi",
+            "team": "Xie Xiaobo, Han Mengyao, Gao Yining",
+            "length": "1:00",
+            "note": "Sets the bronze-smiths of the ancient state of Qi beside today’s creators who use code as their chisel."
+          },
+          {
+            "id": "sdut-houses",
+            "award": "Third prize",
+            "level": 3,
+            "title": "Ten Flats, No Second Chances: Which One Should You Buy?",
+            "team": "Wang Jinzhao, Ci Ru",
+            "length": "1:03",
+            "note": "Explains the optimal stopping problem (the 37% rule) as a house-hunting decision."
+          },
+          {
+            "id": "sdut-bookstall",
+            "award": "Third prize",
+            "level": 3,
+            "title": "The Old Bookstall",
+            "team": "Zhang Yiping, Liu Luhui, Gao Yinuo",
+            "length": "1:07",
+            "note": "A boy can’t afford a rare second-hand book; the gruff stall owner quietly keeps it for him."
+          }
+        ]
+      }
+    ],
+    "pending": "Films from the Xiamen edition will be added after the event."
+  },
+  "scene": {
+    "label": "On site",
+    "heading": "Ten in the morning to six at night",
+    "sub": "Photos from the Wuhan University and Shandong Tech editions.",
+    "captions": {
+      "whu-room": "Wuhan University edition",
+      "whu-mentor": "A teacher helping a team",
+      "whu-teams": "Working as a team",
+      "whu-edit": "Team discussion",
+      "whu-break": "Snack break",
+      "whu-host": "Opening",
+      "whu-third": "Third-prize winners, Wuhan",
+      "whu-group": "Participants and teachers, Wuhan University",
+      "sdut-award": "Winning team, Shandong Tech",
+      "sdut-group": "Group photo, Shandong Tech"
+    }
+  },
+  "host": {
+    "label": "Partner with us · Contact",
+    "heading": "Host the next edition with us",
+    "sub": "Universities, departments and student groups — as well as innovation parks, companies, cultural venues, communities or any other organization — are welcome to host FRAME ZERO.",
+    "terms": [
+      {
+        "label": "Who can host",
+        "value": "Universities, student groups, parks, companies, cultural venues and other organizations"
+      },
+      {
+        "label": "Venue",
+        "value": "An indoor space with network, power and a projector"
+      },
+      {
+        "label": "Size",
+        "value": "Agreed with you, based on venue capacity and sign-ups"
+      },
+      {
+        "label": "Timing",
+        "value": "One 8-hour day; date set together with the host"
+      },
+      {
+        "label": "Who does what",
+        "value": "Venue, participant recruitment and on-site running are shared with the host"
+      }
+    ],
+    "provideHeading": "We provide the video API for the whole event and a tested playbook",
+    "steps": [
+      {
+        "title": "Recruitment",
+        "body": "Posters, long-form posts and teaser templates, published on the host’s schedule."
+      },
+      {
+        "title": "Training",
+        "body": "Online platform tutorials and Q&A before the event."
+      },
+      {
+        "title": "Judging",
+        "body": "On-site judging process, scoring criteria and prize templates."
+      },
+      {
+        "title": "Running the day",
+        "body": "Checklists for check-in, materials, room layout, certificates and photography."
+      }
+    ],
+    "note": "The playbook is adapted to each host’s venue and way of working, with one named contact from planning through event day.",
+    "contactHeading": "Send us a message",
+    "contactBody": "Your message goes straight to the FRAME ZERO team’s inbox. We’ll reply using the contact details you leave.",
+    "contactWechat": "WeChat official account",
+    "form": {
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Your name"
+        },
+        "org": {
+          "label": "Organization",
+          "placeholder": "School or company"
+        },
+        "reply": {
+          "label": "Email or WeChat ID",
+          "placeholder": "So we can reply"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "What you have in mind: format, rough dates, venue, number of people"
+        }
+      },
+      "submit": "Send message",
+      "sending": "Sending…",
+      "sent": "Message sent. We’ll get back to you soon using the contact details you left.",
+      "invalid": "Please fill in every field; the message needs at least 10 characters.",
+      "error": "The message couldn’t be sent. Please try again later, or reach us via the WeChat account Eduathon."
+    }
+  },
+  "footer": {
+    "tagline": "Don’t wait until you’re ready. Roll camera.",
+    "articles": "Articles (Chinese)",
+    "articleLinks": {
+      "recruit": "Call for host universities",
+      "whu": "Wuhan University recap",
+      "sdut": "Shandong Tech recap",
+      "xiamen": "Xiamen · Egret Youth Hackathon call for entries"
+    },
+    "aiNote": "Pixel illustrations and participants’ footage on this site are AI-generated.",
+    "rights": "FRAME ZERO AI Video Hackathon"
+  }
+}

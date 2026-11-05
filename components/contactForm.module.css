@@ -1,0 +1,129 @@
+.form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+
+.wide {
+  grid-column: 1 / -1;
+}
+
+.field span {
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.field input,
+.field textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 2px solid var(--line);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--navy);
+  font: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  transition: border-color 0.15s ease;
+}
+
+.field textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.field input::placeholder,
+.field textarea::placeholder {
+  color: #a3afc0;
+}
+
+.field input:focus,
+.field textarea:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+
+.field [aria-invalid] {
+  border-color: var(--pink);
+}
+
+.trap {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.actions {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 20px;
+}
+
+.submit {
+  padding: 13px 30px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--yellow);
+  color: var(--navy);
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 5px 5px 0 var(--pink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.submit:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--pink);
+}
+
+.submit:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.message {
+  color: var(--pink);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.done {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 28px;
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  background: #fff;
+  color: var(--navy);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.doneMark {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  background: var(--cyan);
+  box-shadow: 4px 4px 0 var(--navy);
+}
+
+@media (max-width: 760px) {
+  .form {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .submit {
+    width: 100%;
+  }
+}
