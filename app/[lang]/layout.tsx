@@ -26,6 +26,7 @@ export async function generateMetadata({ params }: LayoutProps<'/[lang]'>): Prom
   if (!hasLocale(lang)) return {};
   const t = await getDictionary(lang);
   return {
+    metadataBase: new URL('https://framezero.cn'),
     title: t.meta.title,
     description: t.meta.description,
     icons: { icon: '/icon.svg' },
